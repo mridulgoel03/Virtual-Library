@@ -15,7 +15,7 @@ window.onload = function(){
 	];
   
 	var booksPdf = [
-		'pdf/webgl-programmirovanie-trehmernoy-grafiki.pdf',
+		'pdf/mysql.pdf',
 		'pdf/Packt.Lear.2nd.Edition.Mar.2015.ISBN.1784392219.pdf',
 		'pdf/grafika-na-javascript.pdf',
 		'pdf/Джон Дакетт - HTML и CSS. Разработка и дизайн веб-сайтов (2013).pdf',
