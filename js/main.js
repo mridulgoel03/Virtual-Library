@@ -226,7 +226,7 @@ window.onload = function(){
 			}
 		}
 
-		document.getElementById('text-help').innerHTML = "Выбирите книгу для просмотра!";
+		document.getElementById('text-help').innerHTML = "Choose A Book to View!";
 		for(var i=0; i < shelf.children.length; i++){
 			shelf.children[i].position.z = 0;
 			
@@ -234,7 +234,7 @@ window.onload = function(){
 
 		for ( var i = 0; i < intersects.length; i++ ) {
 			intersects[i].object.position.z +=5;
-			document.getElementById('text-help').innerHTML = "Нажмите на книгу еще раз для чтения!";
+			document.getElementById('text-help').innerHTML = "Click on the book to read again!";
 			
 			//file name to text
 			createText((booksPdf[intersects[i].object.number]).substring(4,(booksPdf[intersects[i].object.number]).length - 4));
