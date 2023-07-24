@@ -30,7 +30,7 @@ window.onload = function(){
 		'pdf/meteor.pdf',
 		'pdf/Professional_Python_Frameworks_Web.pdf',
 		'pdf/The_Ultimate_Beginners_Guide_to_Learn_kotlin_Programming_Step_by.pdf',
-		'pdf/vvedenie-v-ecmascript-6.pdf'
+		'pdf/Build_An_Html5_Game_A_Developers_Guide_With_Css_And_Javascript.pdf'
 	]
 
 	var cubeMap = new THREE.CubeTextureLoader().load(urls);
