@@ -16,8 +16,8 @@ window.onload = function(){
   
 	var booksPdf = [
 		'pdf/mysql.pdf',
-		'pdf/Packt.Lear.2nd.Edition.Mar.2015.ISBN.1784392219.pdf',
-		'pdf/grafika-na-javascript.pdf',
+		'pdf/Ethical Hacking 101 - How to conduct professional pentestings in 21 days or less!.pdf',
+		'pdf/Google Hacks - 100 Industrial-Strength Tips.pdf',
 		'pdf/Джон Дакетт - HTML и CSS. Разработка и дизайн веб-сайтов (2013).pdf',
 		'pdf/professional+webgl+programming.pdf',
 		'pdf/WebGL Programming Guide.pdf',
@@ -234,7 +234,7 @@ window.onload = function(){
 
 		for ( var i = 0; i < intersects.length; i++ ) {
 			intersects[i].object.position.z +=5;
-			document.getElementById('text-help').innerHTML = "Click on the book to read again!";
+			document.getElementById('text-help').innerHTML = "Click on the book to read!";
 			
 			//file name to text
 			createText((booksPdf[intersects[i].object.number]).substring(4,(booksPdf[intersects[i].object.number]).length - 4));
